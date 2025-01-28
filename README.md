@@ -3,6 +3,7 @@
 It is recommended to compile in Release mode  
 
 Based on [doomertheboomer/openBanaW5p](https://github.com/doomertheboomer/openBanaW5p)  
+Thanks to doomertheboomer for the original code!  
 
 ## Supported Games
 
