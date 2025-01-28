@@ -46,17 +46,17 @@ BOOL WINAPI DllMain(HMODULE hMod, DWORD dwReason, LPVOID lpReserved)
 		DisableThreadLibraryCalls(hMod);
 		imageBase = (uintptr_t)GetModuleHandleA(0);
 		//behold... my shitty hooks!!
-		safeJMP(imageBase + 0xCA88C0, BngRwAttach);
-		safeJMP(imageBase + 0xCA7F80, BngRwInit);
-		safeJMP(imageBase + 0xCA8010, BngRwFin);
-		safeJMP(imageBase + 0xCA88B0, BngRwGetVersion);
-		safeJMP(imageBase + 0xCA80E0, BngRwIsCmdExec);
-		safeJMP(imageBase + 0xCA85E0, BngRwReqLed);
-		safeJMP(imageBase + 0xCA87D0, BngRwReqAction);
-		safeJMP(imageBase + 0xCA86D0, BngRwReqBeep);
-		safeJMP(imageBase + 0xCA8150, BngRwReqCancel);
-		safeJMP(imageBase + 0xCA8330, BngRwReqSendUrlTo);
-		safeJMP(imageBase + 0xCA8220, BngRwReqWaitTouch);
+		safeJMP(imageBase + 0xB4D6E0, BngRwAttach);
+		safeJMP(imageBase + 0xB4CDA0, BngRwInit);
+		safeJMP(imageBase + 0xB4CE30, BngRwFin);
+		safeJMP(imageBase + 0xB4D6D0, BngRwGetVersion);
+		safeJMP(imageBase + 0xB4CF00, BngRwIsCmdExec);
+		safeJMP(imageBase + 0xB4D400, BngRwReqLed);
+		safeJMP(imageBase + 0xB4D5F0, BngRwReqAction);
+		safeJMP(imageBase + 0xB4D4F0, BngRwReqBeep);
+		safeJMP(imageBase + 0xB4CF70, BngRwReqCancel);
+		safeJMP(imageBase + 0xB4D150, BngRwReqSendUrlTo);
+		safeJMP(imageBase + 0xB4D040, BngRwReqWaitTouch);
 
 		//CreateThread(nullptr, 0, MainThread, hMod, 0, nullptr);
 		break;
