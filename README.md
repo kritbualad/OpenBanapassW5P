@@ -5,8 +5,7 @@ It is recommended to compile in Release mode
 Based on [doomertheboomer/openBanaW5p](https://github.com/doomertheboomer/openBanaW5p)  
 Thanks to doomertheboomer for the original code!  
 
-## Supported Games
-
-- WMMT5: [Update 2014/5](https://wanganmaxi-official.com/wanganmaxi5/jp/update/140527.html)  
-- WMMT5DX: [Rev 2.00.02]  
-- WMMT5DX+: [Rev 3.00.05]  
+# Branch
+- [WMMT5 (WM5)](https://github.com/kritbualad/OpenBanapassW5P/tree/wm5_1.00.00) , [Update 05](https://github.com/kritbualad/OpenBanapassW5P/tree/wm5_1.00.05)
+- [WMMT5DX (W5X)](https://github.com/kritbualad/OpenBanapassW5P/tree/w5x)
+- [WMMT5DX+ (W5P)](https://github.com/kritbualad/OpenBanapassW5P/tree/w5p_3.00.05)
